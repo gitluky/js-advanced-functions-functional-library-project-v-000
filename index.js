@@ -29,6 +29,8 @@ const fi = (function() {
       }
       return acc;
     },
+    
+    
 
     find: function(collection, predicate) {
       for (const i in collection) {
